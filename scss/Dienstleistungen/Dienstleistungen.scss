@@ -1,0 +1,147 @@
+.erstefoto {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  display: flex;
+}
+
+.text_name {
+  color: rgba(181, 51, 4, 0.889);
+  margin-top: 30vh;
+  font-size: 80px;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 3px solid rgba(253, 252, 252, 0.86);
+  
+
+  &-last {
+    color: rgba(0, 0, 0, 0.734);
+    font-weight: 700;
+    font-style: italic;
+  }
+}
+
+.unten_text{
+  align-items: center;
+  text-align: center;
+  color: rgba(181, 51, 4, 0.889);
+  font-style: italic;
+  font-weight: 900;
+}
+
+
+.feld_kontakt {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.feld_kontakt a {
+  color: rgba(255, 252, 252, 0.968);
+  background-color: rgba(0, 0, 0, 0.734);
+  padding: 7px;
+  font-style: oblique;
+  font-weight: 800;
+  text-decoration: none;
+  border-radius: 30px 30px;
+}
+
+.feld_kontakt a:hover {
+  color: rgba(255, 128, 82, 0.889);
+  -webkit-text-decoration: underline #000;
+  transition: 2s;
+  text-decoration: none;
+}
+
+.marketing_title {
+  font-size: 15px;
+}
+
+.marketing_img {
+  width: 50px;
+  margin: 0;
+  filter: brightness(0) invert(1); 
+  border: 2px solid  rgba(255, 252, 252, 0.968); 
+  border-radius: 8px; 
+}
+
+
+
+.marketing {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: rgba(255, 252, 252, 0.968);
+  border: 2px solid  rgba(255, 255, 255, 0.91);
+  border-radius: 30% 30%;
+  align-items: flex-start;
+ 
+}
+
+.marketing_1,
+.marketing_2 {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.paragraf {
+  font-size: 20px;
+  text-align: start;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.bewegung .bewegungs_text p {
+  width: 40%;
+  transition: all 1s ease;
+  opacity: 0;
+  color: rgba(255, 252, 252, 0.968);
+  border: solid 5px rgba(255, 255, 255, 0.91);
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.734);
+  justify-content: center;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.bewegung .bewegungs_text p.animated {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.bewegung .bewegungs_text p.a_left {
+  float: left;
+}
+
+.bewegung .bewegungs_text p.b_right {
+  float: right;
+  margin-top: 80px;
+}
+
+.bewegung .bewegungs_text p.c_left {
+  float: left;
+  margin-top: 10px;
+}
+
+.bewegung .bewegungs_text p.d_right {
+  float: right;
+  margin-top: 10px;
+}
+
+.border-line {
+  height: 5px;
+  width: 0%;
+  background-color: rgba(255, 255, 255, 0.91);;
+  transition: all 0.9s ease;
+  
+}

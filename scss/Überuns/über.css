@@ -1,0 +1,195 @@
+.zweitefoto {
+  width: 100%;
+  height: 40vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%;
+  border-radius: 0 0 50% 50%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  box-shadow: 5px 5px 5px 5px #fff;
+}
+@keyframes mymove {
+  25% {
+    -o-object-position: 25% 25%;
+       object-position: 25% 25%;
+  }
+  50% {
+    -o-object-position: 50% 0%;
+       object-position: 50% 0%;
+  }
+  75% {
+    -o-object-position: 25% 75%;
+       object-position: 25% 75%;
+  }
+}
+.zweitefoto:hover {
+  animation: mymove 10s ease-in;
+}
+
+.erstefoto {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  background-attachment: fixed;
+}
+
+.title_name {
+  color: rgba(181, 51, 4, 0.889);
+  margin-top: 50vh;
+  font-size: 80px;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 3px solid rgba(253, 252, 252, 0.86);
+}
+.title_name-last {
+  color: rgba(0, 0, 0, 0.734);
+  font-weight: 700;
+  font-style: italic;
+}
+
+.unten_title {
+  align-items: center;
+  text-align: center;
+  color: rgba(181, 51, 4, 0.889);
+  font-style: italic;
+  font-weight: 900;
+}
+
+.drittefoto {
+  position: relative;
+  width: 100%;
+}
+
+.drittefoto:hover .text {
+  transform: scale(1);
+}
+
+.dritte_img {
+  display: block;
+  width: 100%;
+  height: 50vh;
+  border-radius: 0 0 0 20px;
+}
+
+.boom img,
+.boom_1 img {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+}
+
+.boom a img,
+.boom_1 a img {
+  display: block;
+  margin: 0 auto;
+}
+
+.erdbeben_3 img,
+.erdbeben_2 img,
+.erdbeben_1 img {
+  filter: brightness(0) invert(1);
+}
+
+.text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url(foto5.png);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transition: 3s ease-in-out;
+}
+.text:hover a {
+  color: #000;
+  font-size: 50px;
+  text-shadow: 0 3px 3px rgba(181, 51, 4, 0.889);
+  font-style: italic;
+  font-weight: 900;
+}
+
+.text1 {
+  color: rgba(255, 255, 255, 0.91);
+  font-size: 20px;
+  position: absolute;
+  font-style: italic;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.boom,
+.boom_1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.boom:hover .erdbeben_1,
+.boom:hover .erdbeben_2,
+.boom:hover .erdbeben_3,
+.boom_1:hover .erdbeben_1,
+.boom_1:hover .erdbeben_2,
+.boom_1:hover .erdbeben_3 {
+  animation: boom 0.3s infinite;
+  animation-iteration-count: infinite;
+}
+
+.erdbeben_1,
+.erdbeben_2,
+.erdbeben_3 {
+  padding: 1.5rem;
+  background: rgba(0, 0, 0, 0.734);
+  margin: 2rem;
+  border-radius: 0 0 50% 50%;
+  box-shadow: 5px 5px 5px 5px rgba(255, 255, 255, 0.91);
+  text-decoration: none;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.91);
+}
+.erdbeben_1:hover,
+.erdbeben_2:hover,
+.erdbeben_3:hover {
+  color: rgba(255, 128, 82, 0.889);
+  transition: color 0.5s ease-in-out;
+}
+
+.erdbeben2 {
+  border-radius: 50% 50%;
+}
+
+.erdbeben3 {
+  border-radius: 50% 50% 0 0;
+}
+
+@keyframes boom {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  25% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  50% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  75% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+}/*# sourceMappingURL=über.css.map */

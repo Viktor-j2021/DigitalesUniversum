@@ -1,0 +1,45 @@
+.erstefoto {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  background-attachment: fixed;
+}
+
+.home {
+  height: 100%;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  margin-top: 40vh;
+
+  .oben-title {
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.734);
+  }
+  .unten-title{
+    font-weight: 900;
+    color: rgba(181, 51, 4, 0.889);
+  }
+
+
+  &_name {
+    color: rgba(181, 51, 4, 0.889);
+    font-size: 80px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgba(253, 252, 252, 0.86);
+    margin: 0;
+
+    &-last {
+      color: rgba(0, 0, 0, 0.734);
+      font-weight: 700;
+      font-style: italic;
+    }
+  }
+
+}
