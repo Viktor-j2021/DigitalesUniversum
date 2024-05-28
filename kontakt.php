@@ -31,9 +31,11 @@ require_once __DIR__ . '/logistik/Databasetabelle.php';
             <img class="fotolog" src="./image/logo.jpg">
         </div>
 
-        <a href="https://Viktor-j2021.github.io/run/index.html">Home</a>
-        <a href="https://Viktor-j2021.github.io/run/Dienst.html">Dienst</a>
-        <a href="https://Viktor-j2021.github.io/run/Über-uns.html">Über uns</a>
+        
+        <a href="https://viktor-j2021.github.io/DigitalesUniversum/index.html">Home</a>
+        <a href="https://viktor-j2021.github.io/DigitalesUniversum/Dienst.html">Dienst</a>
+        <a href="https://viktor-j2021.github.io/DigitalesUniversum//Über-uns.html">Über uns</a>
+
 
 
         <a href="http://localhost/PHPprojekt/Abschlussprojekte/Animation_von_Partikeln_PhP/animation_php/kontakt.php" class="active">Kontakt</a>
