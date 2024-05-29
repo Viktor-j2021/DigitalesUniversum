@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/configdatabase.php';
+require_once __DIR__ . './../logistik/configdatabase.php';
 require_once __DIR__ . './../includes/Database.php';
 
 
