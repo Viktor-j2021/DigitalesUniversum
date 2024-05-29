@@ -38,7 +38,7 @@ require_once __DIR__ . '/logistik/Databasetabelle.php';
 
 
 
-        <a href="https://viktor-j2021.github.io/DigitalesUniversum/kontakt.php" class="active">Kontakt</a>
+        <a href="https://turbo-happiness-pjjrj9jr5gg72rgrv-8000.app.github.dev/kontakt.php" class="active">Kontakt</a>
 
     </nav>
     <br>
