@@ -80,7 +80,7 @@ require_once __DIR__ . '/logistik/Databasetabelle.php';
             <div class="message">
 
 
-                <form action="" method="post">
+                <form action="./logistik/email_adressekontakt.php" method="post">
 
 
                     <input minlength="5" type="text" name="name" required placeholder="Vollständiger Name" class="text_color">
