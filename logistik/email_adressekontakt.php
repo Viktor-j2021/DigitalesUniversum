@@ -36,7 +36,7 @@ if (isset($_POST['submit'])) {
     $mail->Body = "<h3>Name : $name <br>Email: $email <br>Telefon : $telefon <br>Message : $message </h3>";
 
     if ($mail->send()) {
-      require_once 'Databasetabelle.php';
+      require_once __DIR__ .'/Databasetabelle.php'; 
       Databasetabelle::speichert($name, $email, $telefon, $message);
 
       $_SESSION['alert'] = 'Nachricht gesendet!';
