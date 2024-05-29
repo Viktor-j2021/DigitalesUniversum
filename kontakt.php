@@ -34,11 +34,11 @@ require_once __DIR__ . '/logistik/Databasetabelle.php';
         
         <a href="https://viktor-j2021.github.io/DigitalesUniversum/index.html">Home</a>
         <a href="https://viktor-j2021.github.io/DigitalesUniversum/Dienst.html">Dienst</a>
-        <a href="https://viktor-j2021.github.io/DigitalesUniversum//Über-uns.html">Über uns</a>
+        <a href="https://viktor-j2021.github.io/DigitalesUniversum/Über-uns.html">Über uns</a>
 
 
 
-        <a href="http://localhost/PHPprojekt/Abschlussprojekte/Animation_von_Partikeln_PhP/animation_php/kontakt.php" class="active">Kontakt</a>
+        <a href="https://viktor-j2021.github.io/DigitalesUniversum/kontakt.php" class="active">Kontakt</a>
 
     </nav>
     <br>
