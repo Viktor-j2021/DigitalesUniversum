@@ -32,13 +32,13 @@ require_once __DIR__ . '/logistik/Databasetabelle.php';
         </div>
 
         
-        <a href="https://zany-invention-q77q767q596xhxjw-8000.app.github.dev/index.html">Home</a>
-        <a href="https://zany-invention-q77q767q596xhxjw-8000.app.github.dev/Dienst.html">Dienst</a>
-        <a href="https://zany-invention-q77q767q596xhxjw-8000.app.github.dev/%C3%9Cber-uns.html">Über uns</a>
+        <a href="https://viktor-j2021.github.io/DigitalesUniversum/index.html">Home</a>
+        <a href="https://viktor-j2021.github.io/DigitalesUniversum/Dienst.html">Dienst</a>
+        <a href="https://viktor-j2021.github.io/DigitalesUniversum/%C3%9Cber-uns.html">Über uns</a>
 
 
 
-        <a href="https://zany-invention-q77q767q596xhxjw-8000.app.github.dev/kontakt.php" class="active">Kontakt</a>
+        <a href="https://viktor-j2021.github.io/DigitalesUniversum/kontakt.php" class="active">Kontakt</a>
 
     </nav>
     <br>
