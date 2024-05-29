@@ -3,9 +3,9 @@ session_start();
 
 use PHPMailer\PHPMailer\PHPMailer;
 
-require_once './includes/PHPMailer/Exception.php';
-require_once './includes/PHPMailer/PHPMailer.php';
-require_once './includes/PHPMailer/SMTP.php';
+require_once __DIR__ . './../includes/PHPMailer/Exception.php';
+require_once __DIR__ . './../includes/PHPMailer/PHPMailer.php';
+require_once __DIR__ . './../includes/PHPMailer/SMTP.php';
 
 $mail = new PHPMailer(true);
 $alert = '';
@@ -41,7 +41,7 @@ if (isset($_POST['submit'])) {
 
       $_SESSION['alert'] = 'Nachricht gesendet!';
 
-      header("Location: kontakt.php");
+      header("Location: ./../kontakt.php");
       exit();
     } else {
       $alert = '';
