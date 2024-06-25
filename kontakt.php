@@ -116,7 +116,7 @@ require_once __DIR__ . '/logistik/Databasetabelle.php';
     </main>
 
     <div class="footer">
-        <footer>&copy; WebDesign Technology 2021</footer>
+        <footer>&copy; WebDesign Technology 2022</footer>
     </div>
 
     <script src="https://kit.fontawesome.com/dce4646cb6.js" crossorigin="anonymous"></script>
